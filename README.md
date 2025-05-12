@@ -8,7 +8,7 @@
 |------------|-----------|------------|
 | `01-multiplication-table` | 九九乘法表 | 巢狀迴圈、動態建立 DOM |
 | `02-interactive-form` | 互動式表單 | 表單驗證、即時事件監聽 |
-| `03-star-rating` | 星星評分系統 | 滑鼠事件、視覺回饋邏輯 |
+| `03-star-comment` | 星星評分系統 | 滑鼠事件、視覺回饋邏輯 |
 | `04-marquee-banner` | 跑馬燈廣告 | setInterval 動畫、樣式控制 |
 | `05-calendar-display` | 日曆與地址顯示 | 日期物件操作、選單事件處理 |
 
