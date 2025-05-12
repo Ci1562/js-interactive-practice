@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-04廣告輪播</title>
+    <style>
+        @import url(../css/main.css);
+        @import url(../css/04_ad.css);
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item">
+            <a href="./00_index.html">JavaScript 練習</a>
+        </div>
+        <div class="item">
+            <a href="./01-multiplication-table.html">九九乘法表</a>
+            <a href="./02-interactive-form.html">表單製作</a>
+            <a href="./03-star-comment.html">評點製作</a>
+            <a href="./05-calendar-display.html">日曆製作</a>
+        </div>
+    </div>
+    <form class="ad">
+        <fieldset class="ad">
+            <legend>Ads Game</legend>
+            <figure class="ad">
+                <a href="https://undertale.com/">
+                    <img class="ad" alt="undertale" id="ad00" src="../img/game/game_ad_00.png" style="display: none;">
+                </a>
+                <a href="https://store.steampowered.com/app/420530/OneShot/?curator_clanid=45219727">
+                    <img class="ad" alt="oneShot" id="ad01" src="../img/game/game_ad_01.png" style="display: none;">
+                </a>
+                <a href="https://store.steampowered.com/app/1161170/_/?l=tchinese">
+                    <img class="ad" alt="theRewinder" id="ad02" src="../img/game/game_ad_02.png" style="display: none;">
+                </a>
+                <a href="https://www.inscryption.com/zh">
+                    <img class="ad" alt="inscryption" id="ad03" src="../img/game/game_ad_03.png" style="display: none;">
+                </a>
+                <a href="https://store.steampowered.com/app/683320/GRIS/">
+                    <img class="ad" alt="gris" id="ad04" src="../img/game/game_ad_04.png" style="display: none;">
+                </a>
+                <a href="https://store.steampowered.com/app/1859910/_/?l=tchinese">
+                    <img class="ad" alt="legendOfMortal" id="ad05" src="../img/game/game_ad_05.png" style="display: none;">
+                </a>
+            </figure>
+            <div class="num">
+                <p class="num" id="sp1"></p>
+                <p class="num" id="sp2"></p>
+                <p class="num" id="sp3"></p>
+                <p class="num" id="sp4"></p>
+                <p class="num" id="sp5"></p>
+                <p class="num" id="sp6"></p>
+            </div>
+            <div class="btm">
+                <input class="btm" type="button" id="back" value="◄"></input>
+                <input class="btm" type="button" id="pause" value="&nbsp;⏹&nbsp;"></input>
+                <input class="btm" type="button" id="forward" value="►"></input>
+            </div>
+        </fieldset>
+    </form>
+    <script src="../javascript/hw04_ad.js"></script>
+</body>
+</html>

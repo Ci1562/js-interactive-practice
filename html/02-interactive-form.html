@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-02表單製作</title>
+    <style>
+        @import url(../css/main.css);
+        @import url(../css/02_form.css);
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item">
+            <a href="./00_index.html">JavaScript 練習</a>
+        </div>
+        <div class="item">
+            <a href="./01-multiplication-table.html">九九乘法表</a>
+            <a href="./03-star-comment.html">評點製作</a>
+            <a href="./04-marquee-banner.html">廣告輪播</a>
+            <a href="./05-calendar-display.html">日曆製作</a>
+        </div>
+    </div>
+    <form>
+        <fieldset>
+            <legend class="bolder">Form Check</legend>
+            <figure>
+                <label for="name">姓名：</label>
+                <input type="text" id="name" placeholder="請輸入你的姓名" minlength="2" required>
+                <span class="sp" id="nameSp"></span>
+                <figcaption>（1.不可空白&nbsp;2.至少兩個字以上&nbsp;3.必須全部為中文字）</figcaption>
+            </figure>
+            <figure>
+                <label for="pwd">密碼：</label>
+                <input type="password" id="pwd">
+                <span class="sp" id="pwdSp"></span>
+                <figcaption>（1.不可空白&nbsp;2.至少&nbsp;6&nbsp;個字且必須包含英數字、特殊字元[!@#$%^&*]）</figcaption>
+            </figure>
+            <figure>
+                <label for="date">日期：</label>
+                <input type="text" id="date" placeholder="yyyy/mm/dd">
+                <span class="sp" id="dateSp"></span>
+                <figcaption>格式：西元年&nbsp;/&nbsp;月&nbsp;/&nbsp;日（&nbsp;yyyy&nbsp;/&nbsp;mm&nbsp;/&nbsp;dd&nbsp;）</figcaption>
+            </figure>
+        </fieldset>
+    </form>
+    <script src="../javascript/hw02_form.js"></script>
+</body>
+</html>

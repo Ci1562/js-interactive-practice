@@ -1,0 +1,5 @@
+# 忽略 iCloud Drive 路徑（如果你在裡面作業）
+/iCloud\ Drive/
+
+# 忽略 macOS 特有檔案
+.DS_Store

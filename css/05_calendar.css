@@ -1,0 +1,17 @@
+table{
+    border: 4px solid #3d547f;
+}
+
+tr, td{
+    border-collapse: collapse;
+    border: 2px solid #3d547f;
+    background-color: #c1d3d0;
+    color: #3d547f;
+}
+
+th{
+    border-collapse: collapse;
+    border-left: 2px solid #c1d3d0;
+    background-color: #3d547f;
+    color: #c1d3d0;
+}

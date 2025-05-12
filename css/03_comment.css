@@ -1,0 +1,16 @@
+div.star{
+    margin: 40px auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+img.star, .img{
+    margin: 40px auto;
+    width: 14vh;
+}
+
+.darkstar{
+    margin: 40px auto;
+    width: 14vh;
+    filter: grayscale(100%);
+}
